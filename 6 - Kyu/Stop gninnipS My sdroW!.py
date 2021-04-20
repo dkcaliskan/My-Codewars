@@ -9,5 +9,7 @@
 # spinWords("This is a test") => "This is a test" 
 # spinWords("This is another test") => "This is rehtona test"
 
+# link = https://www.codewars.com/kata/5264d2b162488dc400000001
+
 def spin_words(sentence):
     return ' '.join(x if len(x) <= 4 else x[::-1] for x in sentence.split())
