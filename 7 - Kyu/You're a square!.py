@@ -33,4 +33,3 @@ def is_square(n):
         z = (x*x) == n
         return z
     
-////////////
