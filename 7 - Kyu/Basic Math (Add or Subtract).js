@@ -9,8 +9,8 @@
 // link = https://www.codewars.com/kata/5809b62808ad92e31b000031
 
 
-def disemvowel(string):
-    a = "aeiouAEIOU"
-    for x in a:
-        string = string.replace(x, "")
-    return string
+
+function calculate(str) {
+  let x = eval(str.replace(/plus/gi, '+').replace(/minus/gi, '-'));
+  return x.toString()
+}
